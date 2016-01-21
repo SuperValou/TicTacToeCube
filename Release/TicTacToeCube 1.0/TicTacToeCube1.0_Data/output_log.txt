@@ -1,0 +1,51 @@
+Initialize engine version: 5.1.2f1 (afd2369b692a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 5500 (ID=0x1616)
+    Vendor:   Intel
+    VRAM:     1919 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Aya\TicTacToeCube\Release\TicTacToeCube 1.0\TicTacToeCube1.0_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Aya\TicTacToeCube\Release\TicTacToeCube 1.0\TicTacToeCube1.0_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Aya\TicTacToeCube\Release\TicTacToeCube 1.0\TicTacToeCube1.0_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Aya\TicTacToeCube\Release\TicTacToeCube 1.0\TicTacToeCube1.0_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Aya\TicTacToeCube\Release\TicTacToeCube 1.0\TicTacToeCube1.0_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Aya\TicTacToeCube\Release\TicTacToeCube 1.0\TicTacToeCube1.0_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Aya\TicTacToeCube\Release\TicTacToeCube 1.0\TicTacToeCube1.0_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Aya\TicTacToeCube\Release\TicTacToeCube 1.0\TicTacToeCube1.0_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Aya\TicTacToeCube\Release\TicTacToeCube 1.0\TicTacToeCube1.0_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Aya\TicTacToeCube\Release\TicTacToeCube 1.0\TicTacToeCube1.0_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.053 seconds
+desktop: 1920x1080 59Hz; virtual: 3840x1080 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Aya\TicTacToeCube\Release\TicTacToeCube 1.0\TicTacToeCube1.0_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Aya\TicTacToeCube\Release\TicTacToeCube 1.0\TicTacToeCube1.0_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2c04 -> priority: 1 
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.091661 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 401.
+Total: 0.347255 ms (FindLiveObjects: 0.026514 ms CreateObjectMapping: 0.015823 ms MarkObjects: 0.289094 ms  DeleteObjects: 0.014967 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.688097 ms
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 401.
+Total: 0.339985 ms (FindLiveObjects: 0.040199 ms CreateObjectMapping: 0.015395 ms MarkObjects: 0.257020 ms  DeleteObjects: 0.026086 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.593585 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 401.
+Total: 0.320741 ms (FindLiveObjects: 0.027369 ms CreateObjectMapping: 0.017106 ms MarkObjects: 0.260014 ms  DeleteObjects: 0.015823 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.494796 ms
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 401.
+Total: 0.413970 ms (FindLiveObjects: 0.036778 ms CreateObjectMapping: 0.016250 ms MarkObjects: 0.322024 ms  DeleteObjects: 0.038061 ms)
+
