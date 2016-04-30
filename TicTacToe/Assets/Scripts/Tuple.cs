@@ -2,10 +2,10 @@
 
 public class Tuple 
 {
-    public Vector3 Left { get; set; }
-    public Vector3 Right { get; set; }
+    public Transform Left { get; set; }
+    public Transform Right { get; set; }
 
-    public Tuple(Vector3 left, Vector3 right)
+    public Tuple(Transform left, Transform right)
     {
         this.Left = left;
         this.Right = right;
@@ -13,7 +13,7 @@ public class Tuple
 
     public override int GetHashCode()
     {
-        return (this.Left + this.Right).GetHashCode();
+        return (this.Left.position + this.Right.position).GetHashCode();
     }
 
     public override bool Equals(object obj)

@@ -38,42 +38,42 @@ public class Grid : MonoBehaviour
         // horizontal up
         if (grid[0].Player == p && grid[1].Player == p && grid[2].Player == p)
         {
-            result.Add(new Tuple(grid[0].transform.position, grid[2].transform.position));
+            result.Add(new Tuple(grid[0].transform, grid[2].transform));
         }
         // horizontal middle
         if (grid[3].Player == p && grid[4].Player == p && grid[5].Player == p)
         {
-            result.Add(new Tuple(grid[3].transform.position, grid[5].transform.position));
+            result.Add(new Tuple(grid[3].transform, grid[5].transform));
         }
         // horizontal down
         if (grid[6].Player == p && grid[7].Player == p && grid[8].Player == p)
         {
-            result.Add(new Tuple(grid[6].transform.position, grid[8].transform.position));
+            result.Add(new Tuple(grid[6].transform, grid[8].transform));
         }
         // vertical left
         if (grid[0].Player == p && grid[3].Player == p && grid[6].Player == p)
         {
-            result.Add(new Tuple(grid[0].transform.position, grid[6].transform.position));
+            result.Add(new Tuple(grid[0].transform, grid[6].transform));
         }
         // vertical center
         if (grid[1].Player == p && grid[4].Player == p && grid[7].Player == p)
         {
-            result.Add(new Tuple(grid[1].transform.position, grid[7].transform.position));
+            result.Add(new Tuple(grid[1].transform, grid[7].transform));
         }
         // vertical right
         if (grid[2].Player == p && grid[5].Player == p && grid[8].Player == p)
         {
-            result.Add(new Tuple(grid[2].transform.position, grid[8].transform.position));
+            result.Add(new Tuple(grid[2].transform, grid[8].transform));
         }
         // diagonal \
         if (grid[0].Player == p && grid[4].Player == p && grid[8].Player == p)
         {
-            result.Add(new Tuple(grid[0].transform.position, grid[8].transform.position));
+            result.Add(new Tuple(grid[0].transform, grid[8].transform));
         }
         // diagonal / 
         if (grid[6].Player == p && grid[4].Player == p && grid[2].Player == p)
         {
-            result.Add(new Tuple(grid[6].transform.position, grid[2].transform.position));
+            result.Add(new Tuple(grid[6].transform, grid[2].transform));
         }
 
         return result;
